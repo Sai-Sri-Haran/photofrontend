@@ -12,7 +12,7 @@ function Cropdownload({ croppedImage }) {
   }
   const handleDownload = () => {
     axios
-      .post(`http://localhost:8080/api/download/`, obj)
+      .post(`https://imagestorebackend.herokuapp.com/api/download/`, obj)
       .then((response) => {
         toast.info("Download Complete");
       });

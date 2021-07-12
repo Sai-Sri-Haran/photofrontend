@@ -32,7 +32,7 @@ function Crop({ image, croppedImage, setCroppedImage }) {
       }
       console.log(obj);
       //save in database
-      await axios.post (`http://localhost:8080/api/uploadimage/`,obj)
+      await axios.post (`https://imagestorebackend.herokuapp.com/api/uploadimage/`,obj)
       .then((response) => {
         toast.info(response.data);
         localStorage.setItem("croppedImage", croppedImage);
