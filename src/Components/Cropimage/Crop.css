@@ -1,0 +1,39 @@
+.container_crop {
+  height: 100vh;
+  width: 100vw;
+}
+.cropimg {
+  height: 90%;
+}
+.buton_next {
+  height: 10%;
+}
+.btn_nxt {
+  float: right;
+  width: 7%;
+  background-color: #337ab7 !important;
+}
+.btn_back {
+  width: 7%;
+}
+.btn_backicon{
+    transform: rotate(180deg);
+}
+.cropper {
+  position: relative !important;
+  height: 90%;
+}
+.slider {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+.infoalrt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.info_list {
+  margin-left: 30px;
+}

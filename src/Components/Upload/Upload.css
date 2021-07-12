@@ -1,0 +1,23 @@
+.uploadtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+div .alerts{
+    margin:1% 0% 1% 0% ;
+    font-size: 15px;
+}
+.button_browse{
+    margin-bottom: 5%
+}
+.alertscontain{
+    font-size: 0.9rem;
+}
+.imagecontain{
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.contir{
+    margin-top: 2%;
+ 
+}
